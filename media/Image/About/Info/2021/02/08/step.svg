@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>step</title>
+    <desc>Created with Sketch.</desc>
+    <g id="step" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <g id="bg_frame">
+                <rect id="frame" x="0" y="0" width="64" height="64"></rect>
+            </g>
+            <g id="Group" transform="translate(8.000000, 29.000000)">
+                <rect id="Rectangle" fill="#3E1289" x="12" y="4" width="6" height="4"></rect>
+                <rect id="Rectangle-Copy" fill="#3E1289" x="30" y="4" width="6" height="4"></rect>
+                <circle id="Oval" stroke="#46008F" stroke-width="1.6" stroke-linejoin="round" cx="6" cy="6" r="6"></circle>
+                <circle id="Oval-Copy" stroke="#46008F" stroke-width="1.6" stroke-linejoin="round" cx="24" cy="6" r="6"></circle>
+                <circle id="Oval-Copy-2" stroke="#00B5CA" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" cx="42" cy="6" r="6"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

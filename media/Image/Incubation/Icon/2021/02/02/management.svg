@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>management</title>
+    <desc>Created with Sketch.</desc>
+    <g id="management" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <g id="bg_frame">
+                <rect id="frame" x="0" y="0" width="64" height="64"></rect>
+            </g>
+            <g id="Group-2" transform="translate(15.000000, 10.000000)">
+                <g id="Group-3" stroke="#46008F" stroke-linejoin="round" stroke-width="1.6">
+                    <g id="Group">
+                        <path d="M16.200339,14.2722161 C21.102328,16.2308568 24.427927,21.789622 24.7880229,27.0156452 M19.9478804,40.5725394 C17.4353391,41.1025274 14.9227977,41.3675214 12.4102564,41.3675214 C8.89540327,41.3675214 5.38055012,40.8489316 1.86569698,39.811752 C1.08705389,39.5819759 0.524553442,38.9043126 0.44209095,38.0966728 C0.14736365,35.2101059 0,31.8278613 0,27.9499389 C0,22.5878475 3.27679615,16.6150177 8.28248125,14.4138956" id="Shape"></path>
+                        <ellipse id="Oval" cx="12.4102564" cy="7.8974359" rx="6.76923077" ry="7.8974359"></ellipse>
+                    </g>
+                </g>
+                <g id="Group" transform="translate(17.000000, 27.000000)">
+                    <circle id="Oval" stroke="#00B5CA" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" cx="7.5" cy="7.5" r="7.5"></circle>
+                    <path d="M10.3225123,5.26626882 C10.7277408,4.89102453 11.360439,4.91533157 11.7356833,5.32056011 C12.1109276,5.72578865 12.0866206,6.35848689 11.681392,6.73373118 L7.70085986,10.4197301 C7.31746614,10.7747552 6.7253738,10.7747552 6.34198008,10.4197301 L3.32056011,7.62187538 C2.91533157,7.24663109 2.89102453,6.61393286 3.26626882,6.20870432 C3.64151311,5.80347578 4.27421135,5.77916874 4.67943989,6.15441303 L7.02141997,8.32310196 L10.3225123,5.26626882 Z" id="Path-20" fill="#00B5CA"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>atm</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.87103445,1.0658141e-14 L32.1688475,1.0658141e-14 C32.6554494,2.79230845e-05 33.0714101,0.350302884 33.1542296,0.829805121 C33.7180765,4.09432567 34,8.48439063 34,14 C34,19.1925862 33.7501314,24.3870774 33.2503942,29.5834737 L33.2503996,29.5834742 C33.1139553,31.0022579 31.9980673,32.1291677 30.5806932,32.2795499 C26.0537955,32.75985 21.5268977,33 17,33 C12.486481,33 7.97296196,32.7612673 3.45944294,32.283802 L3.45944316,32.2837999 C2.02821553,32.1323967 0.906161115,30.9859345 0.785587422,29.5517806 C0.261862474,23.3223771 7.10542736e-15,18.1384502 7.10542736e-15,14 C7.10542736e-15,9.62016584 0.293300716,5.24254185 0.879902149,0.867128028 C0.946458584,0.370637643 1.37010285,1.07501607e-14 1.87103445,1.0658141e-14 Z" id="path-1"></path>
+    </defs>
+    <g id="atm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g id="bg_frame" fill-rule="nonzero">
+                <rect id="frame" x="0" y="0" width="64" height="64"></rect>
+            </g>
+            <g id="ic_atm" transform="translate(12.000000, 16.000000)">
+                <path d="M38,-2.08721929e-14 C39.1045695,-2.1075099e-14 40,0.8954305 40,2 L40,6 C40,7.1045695 39.1045695,8 38,8 L36.57818,7.99843498 C36.4611958,6.84508014 36.319879,5.78887018 36.1542296,4.82980512 C36.0714101,4.35030288 35.6554494,4.00002792 35.1688475,4 L35.1688475,4 L4.87103445,4 C4.37010285,4 3.94645858,4.37063764 3.87990215,4.86712803 C3.73992888,5.91117759 3.61665564,6.95535299 3.51008242,7.99965424 L2,8 C0.8954305,8 -1.58519408e-14,7.1045695 -1.59872116e-14,6 L-1.59872116e-14,2 C-1.61224823e-14,0.8954305 0.8954305,-2.06692867e-14 2,-2.08721929e-14 L38,-2.08721929e-14 Z" id="Combined-Shape" stroke="#00B5CA" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+                <g id="Group" transform="translate(3.000000, 4.000000)">
+                    <path d="M5.8,33 L4.2,33 L4.2,0.5 L5.8,0.5 L5.8,33 Z M8.2,0.5 L9.8,0.5 L9.8,33 L8.2,33 L8.2,0.5 Z" id="Shape" fill="#00B5CA" fill-rule="nonzero"></path>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Rectangle" stroke="#46008F" stroke-width="1.6" stroke-linejoin="round" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill="#00B5CA" fill-rule="nonzero" mask="url(#mask-2)" x="28" y="21" width="2" height="6" rx="1"></rect>
+                    <rect id="Rectangle-Copy" fill="#00B5CA" fill-rule="nonzero" mask="url(#mask-2)" x="28" y="12" width="2" height="7" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

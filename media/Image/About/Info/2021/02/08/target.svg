@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>target</title>
+    <desc>Created with Sketch.</desc>
+    <g id="target" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <g id="bg_frame">
+                <rect id="frame" x="0" y="0" width="64" height="64"></rect>
+            </g>
+            <g id="Group-2" transform="translate(24.000000, 34.000000)" fill="#3E1289">
+                <path d="M0,0 L2,0 L2,16 C2,16.5522847 1.55228475,17 1,17 C0.44771525,17 6.76353751e-17,16.5522847 0,16 L0,0 L0,0 Z" id="Rectangle"></path>
+                <path d="M14,0 L16,0 L16,16 C16,16.5522847 15.5522847,17 15,17 C14.4477153,17 14,16.5522847 14,16 L14,0 L14,0 Z" id="Rectangle-Copy"></path>
+                <rect id="Rectangle-Copy-2" transform="translate(7.619571, 8.295150) rotate(-90.000000) translate(-7.619571, -8.295150) " x="6.61957112" y="0.795150171" width="2" height="15"></rect>
+            </g>
+            <g id="Group" transform="translate(19.000000, 14.000000)">
+                <circle id="Oval" stroke="#00B5CA" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" cx="13" cy="13" r="13"></circle>
+                <circle id="Oval-Copy" stroke="#46008F" stroke-width="1.6" stroke-linejoin="round" cx="13" cy="13" r="10"></circle>
+                <circle id="Oval-Copy-2" stroke="#00B5CA" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" cx="13" cy="13" r="7"></circle>
+                <circle id="Oval-Copy-3" fill="#3E1289" cx="13" cy="13" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

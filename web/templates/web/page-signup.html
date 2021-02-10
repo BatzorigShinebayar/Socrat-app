@@ -1,0 +1,83 @@
+{% include 'web/base/header.html' %}
+{% load static %}
+{% block header %}
+    <title>Sing-Up</title>
+{% endblock %}
+{% block Body %}
+<!-- Back to home Start -->
+<div class="back-to-home rounded d-none d-sm-block">
+    <a href="index.html" class="text-white rounded d-inline-block text-center"><i data-feather="home" class="fea icon-sm"></i></a>
+</div>
+<!-- Back to home End -->
+
+<!-- Hero Start -->
+<section class="vh-100 user-pages d-flex align-items-center" style="background:url({% static 'images/bg/login.jpg' %}) no-repeat center center fixed; background-size: cover;">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-5 col-md-8">
+                <div class="login-page bg-white rounded p-4 position-relative">
+                    <div class="text-center">
+                        <h5 class="mb-4 pb-2">Sign Up</h5>
+                    </div>
+                    <form class="login-form">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>First name <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" name="s" required="" placeholder="First Name :">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>Your Email <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control"  name="email" required="" placeholder="Your Email :">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>Password <span class="text-danger">*</span></label>
+                                    <input type="password" class="form-control"  required="" placeholder="Password :">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label>Confirm Password <span class="text-danger">*</span></label>
+                                    <input type="password" class="form-control" required="" placeholder="Confirm Password :">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <label class="custom-control-label" for="customCheck1">I Accept <a href="#" class="text-primary">Terms And Condition</a></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary btn-block">Register</button>
+                            </div>
+                            <div class="col-12 mt-4 text-center">
+                                <h6>Or Signup With</h6>
+                            </div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-sm-6 mt-4">
+                                        <a href="#" class="btn btn-block btn-light bg-facebook"><i class="mdi mdi-facebook"></i> Facebook</a>
+                                    </div>
+                                    <div class="col-sm-6 mt-4">
+                                        <a href="#" class="btn btn-block btn-light"><i class="mdi mdi-google"></i> Google</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mx-auto">
+                                <p class="mb-0 mt-3"><small class="text-dark mr-2">Already have an account ?</small> <a href="page-login.html" class="text-dark font-weight-bold">Sign in</a></p>
+                            </div>
+                        </div>
+                    </form>
+                </div><!--end login-->
+            </div><!--end col-->
+        </div><!--end row-->
+    </div> <!--end container-->
+</section><!--end section-->
+<!-- Hero End -->
+{% endblock %}

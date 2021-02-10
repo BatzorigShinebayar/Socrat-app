@@ -1,0 +1,359 @@
+{% extends 'web/base/base.html' %}
+{% load static %}
+{% block header %}
+    <title>Home Page</title>
+{% endblock %}
+
+{% block Body %}
+<!-- Hero Start -->
+<section class="bg-half-170 bg-digital-marketing border-bottom d-table w-100">
+    <div class="container">
+        <div class="row align-items-center">
+            {% for hero in hero %}
+            <div class="col-md-6">
+                <div class="title-heading">
+                    <h4 class="heading text-light mb-4">{{ hero.title }}</h4>
+                    <p class="text-white-50 para-desc mb-0">{{ hero.subtitle }}</p>
+                    <div class="watch-video mt-4 pt-2">
+                        <a href="javascript:void(0)" class="btn btn-pills btn-light mb-2">Get Started</a>
+                        <a href="{{ hero.link }}" class="video-play-icon watch text-light mb-2 ml-2"></a>
+                    </div>
+                </div>
+            </div><!--end col-->
+
+            <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                <div class="position-relative ml-lg-4">
+                    <img src="{{ hero.image.url }}" style="height:400px; width:100%;object-fit: fill" class="img-fluid digital-hero rounded-pill"
+                         alt="">
+                    <div class="play-icon">
+                        <a href="{{ hero.link }}" class="play-btn video-play-icon">
+                            <i class="mdi mdi-play mdi-24px text-primary rounded-circle bg-primary shadow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div><!--end col-->
+            {% endfor %}
+        </div><!--end row-->
+    </div> <!--end container-->
+</section><!--end section-->
+<div class="position-relative">
+    <div class="shape overflow-hidden text-white">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+</div>
+<!-- Hero End -->
+
+<!-- Services Start -->
+<section class="section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="section-title">
+                    <h6 class="text-muted">Services</h6>
+                    <h4 class="title mb-4">Our Solutions</h4>
+                    <p class="text-muted para-desc mb-0">It is a long established fact that a reader will be distracted
+                        by the readable content of a page when looking at its layout.</p>
+
+                </div>
+            </div><!--end col-->
+
+            {% for benefit in benefit|slice:"5" %}
+            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                <div class="feature feature-transition shadow p-4 rounded">
+                    <div class="icon text-center rounded-circle">
+                        <img src="{{ benefit.image.url }}" style="height:50px; width:100%;object-fit: fill"
+                             class="fea icon-m-md feature-icon text-primary"/>
+                    </div>
+                    <h5 class="mt-2">{{ benefit.title }}</h5>
+                    <p class="text-muted mb-0">{{ benefit.description}}</p>
+
+                </div>
+            </div><!--end col-->
+            {% endfor %}
+
+            <div class="col-12 text-center mt-4 pt-2">
+                <a href="/service/" class="btn btn-outline-primary">See more solutions <i
+                        data-feather="corner-down-right" class="fea icon-sm"></i></a>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- Services End -->
+
+<!-- Banner Start-->
+<section class="section">
+    <div class="container-fluid">
+        {% for indexbanner in indexbanner %}
+        <div class="rounded-pill py-5" style="background: url({{ indexbanner.image.url }});">
+            <div class="row my-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-7 col-12">
+                            <div class="section-title text-center text-md-left p-3 p-sm-0">
+                                <h1 class="text-white mb-0">{{ indexbanner.title }}</h1>
+                            </div>
+                        </div><!--end col-->
+
+                        <div class="col-lg-4 col-md-5 col-12 mt-5 mt-sm-0 pt-5 pt-sm-0">
+                            <div class="play-icon">
+                                <a href="{{ indexbanner.link }}" class="video-play-icon">
+                                    <i class="mdi mdi-play mdi-24px text-white rounded-circle bg-primary shadow"></i>
+                                </a>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div><!--end row-->
+        </div><!--end img-->
+        {% endfor %}
+    </div><!--end container-fluid-->
+</section>
+<!-- End Banner -->
+
+<!-- Start section -->
+<section class="section bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            {% for info in info %}
+            <div class="col-lg-6 col-md-12 order-2 order-lg-1">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                        <div class="rounded text-center shadow-large position-relative overflow-hidden">
+                            <img src="{{ info.image3.url}}" style="height:400px ; width:400px; object-fit: fill" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-6 col-md-6">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                                <div class="rounded text-center shadow-large position-relative overflow-hidden">
+                                    <img src="{{ info.image1.url }}" style="height:200px; width:100%; object-fit: fill" class="img-fluid" alt="">
+                                </div>
+                            </div><!--end col-->
+
+                            <div class="col-lg-12 col-md-12 mt-4 pt-2">
+                                <div class="rounded text-center shadow-large position-relative overflow-hidden">
+                                    <img src="{{ info.image2.url }}" style="height:200px; object-fit: fill" class="img-fluid" alt="">
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end col-->
+
+            <div class="col-lg-6 col-md-12 order-1 order-lg-2">
+                <div class="section-title ml-lg-5">
+                    <h2 class="mb-4">{{ info.title }}</h2>
+                    <p class="text-muted">{{ info.desc }}</p>
+                    <h6>Our Facts :</h6>
+                    <ul class="list-unstyled feature-list text-muted px-0 mb-0">
+                        <li><i class="mdi mdi-circle-medium text-primary mdi-18px h5 mr-2"></i>{{ info.fact1 }}
+                        </li>
+                        <li><i class="mdi mdi-circle-medium text-primary mdi-18px h5 mr-2"></i>{{ info.fact2 }}
+                        </li>
+                        <li><i class="mdi mdi-circle-medium text-primary mdi-18px h5 mr-2"></i>{{ info.fact3 }}
+                        </li>
+                    </ul>
+
+                    <div class="row justify-content-center" id="counter">
+                        <div class="col-md-4 col-6 mt-4">
+                            <div class="counter-box text-center">
+                                <h4 class="counter-value mt-3" data-count="1251">{{ portCount }}</h4>
+                                <h6 class="counter-head font-weight-normal">Total Portfolio</h6>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+
+                        <div class="col-md-4 col-6 mt-4">
+                            <div class="counter-box text-center">
+                                <h4 class="counter-value mt-3" data-count="53">1</h4>
+                                <h6 class="counter-head font-weight-normal">Total Investment</h6>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+
+                        <div class="col-md-4 col-6 mt-4">
+                            <div class="counter-box text-center">
+                                <h4 class="counter-value mt-3" data-count="108">${{value}}</h4>
+                                <h6 class="counter-head font-weight-normal">Total Value</h6>
+                            </div><!--end counter box-->
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div>
+            </div><!--end col-->
+            {% endfor %}
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End Section -->
+
+<!-- Start Portfolio -->
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="section-title text-center mb-4 pb-2">
+                    <h2 class="mb-4">Our<span class="font-weight-bold"> Portfolio</span></h2>
+                    <p class="text-muted para-desc mx-auto mb-0"> OUR BELOVED START-UP</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+            {% for portfolio in portfolio %}
+            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                <div class="blog-post shadow rounded position-relative overflow-hidden">
+                    <div class="blog-img overflow-hidden position-relative">
+                        <img class="contain" src="{{ portfolio.image.url }}" style="height:200px; width:100%; object-fit: fill">
+                    </div>
+                    <div class="blog-content p-4">
+                        <h5><a href="/portfolio-detail/{{ portfolio.id }}" class="text-dark title">{{ portfolio.slug }}</a></h5>
+                        <p class="text-muted">{{ portfolio.description }}</p>
+
+                        <div class="progress-box mt-4 pt-3">
+                            <div class="fund-detail d-flex justify-content-between mt-4">
+                                <div>
+                                    <h6 class="text-primary">Started at</h6>
+                                    <h6 class="mb-0 text-muted h6 font-weight-normal">{{ portfolio.start_date }}</h6>
+                                </div>
+                                <div class="text-right">
+                                    <h6 class="text-primary">Ended to</h6>
+                                    <h6 class="mb-0 text-muted h6 font-weight-normal">{{ portfolio.end_date }}</h6>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="progress rounded-0">
+
+                                <div class="progress-bar rounded-0 position-relative bg-primary"
+                                     style="width:{{ portfolio.progress }}%;">
+                                    <div class="progress-value d-block text-muted h6">{{ portfolio.progress|floatformat:0 }}%</div>
+                                </div>
+                            </div>
+
+                        </div><!--end process box-->
+
+                        <div class="fund-detail d-flex justify-content-between mt-4">
+                            <div>
+                                <h6 class="text-primary">Investment :</h6>
+                                <h6 class="mb-0 text-muted h6 font-weight-normal">{{ portfolio.finance }}</h6>
+                            </div>
+                            <div class="text-right">
+                                <h6 class="text-primary">Type :</h6>
+                                <h6 class="mb-0 text-muted h6 font-weight-normal">{{ portfolio.sector }}</h6>
+                            </div>
+                        </div><!--end fund details-->
+
+                        <div class="mt-4">
+                            <a href="/portfolio-detail/{{ portfolio.id }}" class="text-primary">See More <i data-feather="chevron-right"
+                                                                                            class="fea icon-sm"></i></a>
+                        </div><!--end button-->
+                    </div>
+                </div><!--end post-->
+            </div><!--end col-->
+            {% endfor %}
+        </div><!--end row-->
+    </div><!--end container-->
+</section>
+<!-- End Classic Work -->
+<!-- End Cause-->
+
+<!-- Feedback Start -->
+<section class="section pt-4">
+    <div class="container mt-100 mt-60">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="section-title text-center mb-4 pb-2">
+                    <i data-feather="message-circle" class="fea icon-md text-primary"></i>
+                    <h4 class="title mt-3 mb-4">What Client's Say About Us ?</h4>
+                    <p class="text-muted para-desc mx-auto mb-0">It is a long established fact that a reader will be
+                        distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 order-md-1 order-2 mt-4 pt-2">
+                {% for botbanner in botbanner %}
+                <div class="testi-hero position-relative overflow-hidden">
+                    <img src="{{ botbanner.image.url }}" class="img-fluid rounded-pill" alt="">
+                    <div class="bg-overlay rounded-pill"></div>
+                    <div class="content">
+                        <p class="text-light font-italic h7 mb-0">"{{ botbanner.desc }}"</p>
+                        <div class="mt-3">
+                            <a href="javascript:void(0)" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div><!--end col-->
+
+            <div class="col-lg-8 col-md-6  order-md-2 order-1 mt-4 pt-2">
+                <div id="two-post" class="owl-carousel owl-theme">
+                    {% for quote in quote|slice:4 %}
+                    <div class="d-flex p-4 mt-1 m-3 shadow rounded-pill">
+                        <img src="{{quote.image.url}}" class="avatar avatar-md-sm rounded-circle" alt="">
+                        <div class="content ml-3">
+                            <h6 class="mb-0">{{quote.name}}</h6>
+                            <small class="text-muted">{{quote.career}}</small>
+                            <p class="text-muted mb-0 mt-2 font-italic">" {{quote.quote}}"</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- Work & Testi End -->
+
+<!-- News & Blog Start -->
+<section class="section">
+    <div class="container mt-100 mt-60">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="section-title text-center mb-4 pb-2">
+                    <h4 class="title mb-4">Latest news & Blog</h4>
+                    <p class="text-muted mx-auto para-desc mb-0">It is a long established fact that a reader will be
+                        distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+            </div><!--end col-->
+        </div><!--end row-->
+
+        <div class="row">
+            {% for newses in newses|slice:3 %}
+            <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                <div class="blog-post shadow rounded position-relative overflow-hidden">
+                    <div class="blog-img overflow-hidden position-relative">
+                        <img src="{{ newses.image.url }}" style="height:200px; width:100%; object-fit: fill" class="img-fluid" alt="">
+                    </div>
+                    <div class="position-relative">
+                        <div class="shape overflow-hidden text-white">
+                            <svg viewBox="0 0 2880 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M720 125L2160 0H2880V250H0V125H720Z" fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="blog-content p-4">
+                        <h5><a href="/news-detail/{{ newses.id }}" class="title text-dark">{{ newses.title }}</a></h5>
+                        <p class="text-muted">{{ newses.short_desc}}</p>
+
+                        <div class="post-meta d-flex justify-content-between pt-3 border-top">
+                            <ul class="list-unstyled mb-0">
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-dark like mr-2"><i
+                                        data-feather="heart" class="fea icon-sm like-icon mr-1"></i>36</a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="text-dark comment"><i
+                                        data-feather="message-circle" class="fea icon-sm mr-1"></i>08</a></li>
+                            </ul>
+                            <a href="/news-detail/{{ newses.id }}" class="text-dark read">Read More <i
+                                    class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div><!--end post-->
+            </div><!--end col-->
+            {% endfor %}
+        </div><!--end row-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End News & Blog -->
+
+{% endblock %}

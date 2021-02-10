@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>doc</title>
+    <desc>Created with Sketch.</desc>
+    <g id="doc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <g id="bg_frame">
+                <rect id="frame" x="0" y="0" width="64" height="64"></rect>
+            </g>
+            <g id="Group-2" transform="translate(13.000000, 13.000000)">
+                <g id="Group-Copy" transform="translate(10.000000, 5.000000)">
+                    <path d="M17.6633454,-1.03911212e-05 L17.6633454,-1.03911212e-05 L25.2750752,-1.03911212e-05 C26.3064969,-1.03911212e-05 27.1687665,0.784323667 27.2661589,1.81113694 C27.7463763,6.87409406 27.986485,11.9370484 27.986485,17 C27.986485,22.062951 27.7463763,27.1259048 27.2661591,32.1888613 C27.1687676,33.2156642 26.3065066,34.0000104 25.2750952,34.0000104 L2.73689388,34.0000104 C1.70404449,34.0000104 0.841074899,33.2135605 0.745467113,32.1851457 C0.594275323,30.5588359 0.49847832,29.4745743 0.458076105,28.9323608" id="Path" stroke="#00B5CA" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle" fill="#00B5CA" x="17.3551457" y="6" width="5.64485435" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy" fill="#00B5CA" x="17.3551457" y="13" width="5.64485435" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#00B5CA" x="17.3551457" y="20" width="5.64485435" height="3" rx="1.5"></rect>
+                </g>
+                <g id="Group">
+                    <path d="M2.72490477,-1.03911212e-05 L25.275085,-1.03911212e-05 C26.3065017,-2.05843119e-05 27.1687671,0.784329619 27.266159,1.81113788 C27.7463763,6.87409468 27.986485,11.9370487 27.986485,17 C27.986485,22.062951 27.7463763,27.1259048 27.2661591,32.1888613 C27.1687676,33.2156642 26.3065066,34.0000104 25.2750952,34.0000104 L2.724915,34.0000104 C1.69349831,34.0000206 0.831232887,33.2156704 0.733840969,32.1888621 C0.253623684,27.1259053 0.013515042,22.0629513 0.013515042,17 C0.013515042,11.937049 0.253623658,6.87409525 0.733840889,1.81113872 C0.831232426,0.784335771 1.6934934,-1.03911212e-05 2.72490477,-1.03911212e-05 Z" id="Rectangle" stroke="#46008F" stroke-width="1.6" stroke-linejoin="round"></path>
+                    <rect id="Rectangle" fill="#46008F" x="5" y="6" width="18" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy" fill="#46008F" x="11" y="13" width="12" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle-Copy-2" fill="#46008F" x="7" y="20" width="16" height="3" rx="1.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
