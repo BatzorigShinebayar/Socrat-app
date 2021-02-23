@@ -27,6 +27,7 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
+            - cd socrat-app
             - python manage.py migrate
         - name: 'Job #2'
           commands:
