@@ -27,9 +27,7 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - python manage.py makemigrations
             - python manage.py migrate
-            - python manage.py test
         - name: 'Job #2'
           commands:
             - python manage.py check --deploy
