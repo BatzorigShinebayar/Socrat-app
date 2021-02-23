@@ -27,13 +27,11 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - cd Socrat-app
             - python manage.py makemigrations
             - python manage.py migrate
             - python manage.py test
         - name: 'Job #2'
           commands:
-            - cd Socrat-app
             - python manage.py check --deploy
         - name: 'Job #3'
           commands:
